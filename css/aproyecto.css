@@ -1,0 +1,130 @@
+/* FONDO */
+body {
+    color:#363636;
+    background-image:url(../imagenes/Fondo\ 3.jpg);
+}
+
+#recuadro1 {
+    display: block;
+    background-color: #BEBEBE;
+    margin: 25px;
+}
+
+#recuadro2 {
+    display: block;
+    background-color: #DBDBDB;
+    margin: 25px;
+}
+
+#recuadro3 {
+    display: block;
+    background-color: #E6E6E6;
+    margin: 25px;
+}
+
+/* TERMINA FONDO */
+
+/* HEADER */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    margin: 1px 1px;
+    padding-top: 5px;
+} 
+
+nav {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Menú ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#Menú li{
+    display: inline-block;
+}
+
+#Menú a{
+    color: #363636;
+    display: block;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+#Menú a:hover{
+    background-color: #E6E6E6;
+}
+
+.Home {
+    float: right;
+}
+/* TERMINA HEADER */
+
+/* ARTICLE */
+article {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+#HarryStyles a{
+    color: #363636;
+    text-decoration: none;
+}
+
+#LouisTomlinson a{
+    color: #363636;
+    text-decoration: none;
+}
+
+#TaylorSwift a{
+    color: #363636;
+    text-decoration: none;
+}
+
+.imagen {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+#imagen_taylor {
+    max-width: 358px;
+    max-height: 358px;
+}
+
+/* TERMINA ARTICLE*/
+
+/* FOOTER */
+footer{
+    padding: 10px;
+}
+
+#Home {
+    text-align: center;
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+#significado {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0px;
+}
+
+/* TERMINA FOOTER */

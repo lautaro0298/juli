@@ -1,0 +1,155 @@
+/* FONDO */
+body {
+    color:#363636;
+    background-image:url(../imagenes/Fondo\ 3.jpg);
+}
+
+.recuadro1 {
+    display: block;
+    background-color: #BEBEBE;
+    margin: 25px;
+}
+
+.recuadro {
+    display: flex;
+    align-items: center;
+    background-color: #DBDBDB;
+    margin: 25px;
+}
+
+.recuadro2 {
+    width: 800px ;
+}
+
+.recuadro3 {
+    width: 350px;
+}
+
+.recuadro4 {
+    display: block;
+    background-color: #E6E6E6;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/* TERMINA FONDO */
+
+/* HEADER */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    margin: 1px 1px;
+    padding-top: 5px;
+} 
+
+nav {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Menú ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Menú li{
+    display: inline-block;
+}
+
+.Menú a{
+    color: #363636;
+    display: block;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.Menú a:hover{
+    background-color: #E6E6E6;
+}
+
+ /* TERMINA HEADER */
+
+ /* ARTICLE */
+ .recuadro2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+}
+
+.recuadro2 a{
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0px;
+}
+ /* TERMINA ARTICLE */
+
+  /* ASIDE */
+.recuadro3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+}
+
+img {
+    max-width: 350px;
+    max-height: 1000x;
+}
+
+ /* TERMINA ASIDE */
+
+  /* FOOTER */
+.recuadro4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+img.instagram {
+    max-width: 20px;
+} 
+
+img.twitter {
+    max-width: 20px;
+} 
+
+img.youtube {
+    max-width: 20px;
+} 
+
+.Menú_2{
+    padding: 5px;
+    margin: 0px;
+}
+
+.Menú_2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Menú_2 li{
+    display: inline-block;
+}
+
+.Menú_2 a{
+    color: #363636;
+    display: flex;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.Menú_2 a:hover{
+    background-color: #DBDBDB;
+}
+ /* TERMINA FOOTER */
